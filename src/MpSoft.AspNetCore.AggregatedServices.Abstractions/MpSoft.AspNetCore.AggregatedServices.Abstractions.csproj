@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <Authors>Marek Pokorný</Authors>
+    <Company>MpSoft</Company>
+    <Product>MpSoft.AspNetCore.AggregatedServices</Product>
+    <Description>AggregatedServices is simply generator which generates .NET class based on provided interface. This way simplifies services aggregation and mass services usage.</Description>
+    <PackageLicenseUrl>https://opensource.org/licenses/MIT</PackageLicenseUrl>
+    <PackageProjectUrl>https://github.com/MarekPokornyOva/MpSoft.AspNetCore.AggregatedServices</PackageProjectUrl>
+    <PackageIconUrl>https://github.com/MarekPokornyOva/MpSoft.AspNetCore.AggregatedServices/blob/master/icon.png?raw=true</PackageIconUrl>
+    <RepositoryUrl>https://github.com/MarekPokornyOva/MpSoft.AspNetCore.AggregatedServices</RepositoryUrl>
+    <PackageTags>aspnetcore AggregatedServices</PackageTags>
+    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+  </PropertyGroup>
+
+</Project>
