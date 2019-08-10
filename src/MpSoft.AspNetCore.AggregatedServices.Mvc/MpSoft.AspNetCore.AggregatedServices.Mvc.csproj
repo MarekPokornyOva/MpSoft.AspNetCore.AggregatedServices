@@ -1,0 +1,28 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <Authors>Marek Pokorný</Authors>
+    <Company>MpSoft</Company>
+    <Product>MpSoft.AspNetCore.AggregatedServices</Product>
+    <Description>AggregatedServices is simply generator which generates .NET class based on provided interface. This way simplifies services aggregation and mass services usage.</Description>
+    <PackageLicenseUrl>https://opensource.org/licenses/MIT</PackageLicenseUrl>
+    <PackageProjectUrl>https://github.com/MarekPokornyOva/MpSoft.AspNetCore.AggregatedServices</PackageProjectUrl>
+    <PackageIconUrl>https://github.com/MarekPokornyOva/MpSoft.AspNetCore.AggregatedServices/blob/master/icon.png?raw=true</PackageIconUrl>
+    <RepositoryUrl>https://github.com/MarekPokornyOva/MpSoft.AspNetCore.AggregatedServices</RepositoryUrl>
+    <PackageTags>aspnetcore AggregatedServices</PackageTags>
+    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+    <LangVersion>default</LangVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Abstractions" Version="2.0.4" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Core" Version="2.0.4" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MpSoft.AspNetCore.AggregatedServices.Mvc.Abstractions\MpSoft.AspNetCore.AggregatedServices.Mvc.Abstractions.csproj" />
+    <ProjectReference Include="..\MpSoft.AspNetCore.AggregatedServices\MpSoft.AspNetCore.AggregatedServices.csproj" />
+  </ItemGroup>
+
+</Project>
